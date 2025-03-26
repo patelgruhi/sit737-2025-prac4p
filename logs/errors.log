@@ -1,0 +1,3 @@
+{"level":"error","message":"Invalid input: Both parameters must be numbers","service":"calc-service"}
+{"level":"error","message":"Invalid input: Both parameters must be numbers","service":"calc-service"}
+{"level":"error","message":"Cannot divide by zero","service":"calc-service"}

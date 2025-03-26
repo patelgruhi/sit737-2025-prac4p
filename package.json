@@ -1,0 +1,24 @@
+{
+  "name": "sit737-2025-prac4p",
+  "version": "1.0.0",
+  "description": "Calculator Microservice\r A simple Node.js microservice for basic arithmetic operations with logging.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelgruhi/sit737-2025-prac4p.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patelgruhi/sit737-2025-prac4p/issues"
+  },
+  "homepage": "https://github.com/patelgruhi/sit737-2025-prac4p#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "winston": "^3.17.0"
+  }
+}

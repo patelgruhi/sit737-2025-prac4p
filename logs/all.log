@@ -1,0 +1,28 @@
+{"level":"info","message":"Service running on port 4000","service":"calc-service"}
+{"level":"info","message":"Request: GET / from ::1","service":"calc-service"}
+{"level":"info","message":"Request: GET /add?num1=10&num2=5 from ::1","service":"calc-service"}
+{"level":"error","message":"Invalid input: Both parameters must be numbers","service":"calc-service"}
+{"level":"info","message":"Request: GET /add?a=10&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Addition: 10 + 5 = 15","service":"calc-service"}
+{"level":"info","message":"Request: GET /add?a=11&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Addition: 11 + 5 = 16","service":"calc-service"}
+{"level":"info","message":"Service running on port 4000","service":"calc-service"}
+{"level":"info","message":"Request: GET / from ::1","service":"calc-service"}
+{"level":"info","message":"Request: GET /add?a=11&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Addition: 11 + 5 = 16","service":"calc-service"}
+{"level":"info","message":"Request: GET /add?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Addition: 12 + 5 = 17","service":"calc-service"}
+{"level":"info","message":"Request: GET /substract?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Request: GET /substract?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Request: GET /subtract?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Subtraction: 12 - 5 = 7","service":"calc-service"}
+{"level":"info","message":"Request: GET /multiply?subtract?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"error","message":"Invalid input: Both parameters must be numbers","service":"calc-service"}
+{"level":"info","message":"Request: GET /multiply?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Multiplication: 12 * 5 = 60","service":"calc-service"}
+{"level":"info","message":"Request: GET /divide?a=12&b=5 from ::1","service":"calc-service"}
+{"level":"info","message":"Division: 12 / 5 = 2.4","service":"calc-service"}
+{"level":"info","message":"Request: GET /divide?a=12&b=0 from ::1","service":"calc-service"}
+{"level":"error","message":"Cannot divide by zero","service":"calc-service"}
+{"level":"info","message":"Request: GET /divide?a=12&b=2 from ::1","service":"calc-service"}
+{"level":"info","message":"Division: 12 / 2 = 6","service":"calc-service"}
